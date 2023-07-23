@@ -1,0 +1,27 @@
+{
+  "name": "ShiftManagement",
+  "version": "1.0.0",
+  "description": "Sample Shift Management app for Dapr integration",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tech Mahindra",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.32.1"
+  },
+  "scripts": {
+	"start": "node server.js",
+	"seeder": "npx sequelize-cli db:seed:all"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.1"
+  }
+}
